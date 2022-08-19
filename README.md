@@ -4,7 +4,7 @@ Data preprocessing is handled by R code: [preprocessing.R](preprocessing.R)
 
 Model construction, hyperparameters tuning, treatment recommendation and evaluation are handled with [pysurvival](https://github.com/square/pysurvival), [scikit-learn](https://github.com/scikit-learn/scikit-learn) and [lifelines](https://github.com/CamDavidsonPilon/lifelines) packages: [model_development.py](model_development.py)
 
-Plotting is mainly using R language:[Brier score plot.R](Brier score plot.R),[recommend treatment.R](recommend treatment.R)
+Plotting is mainly using R language:[Brier score plot.R](Brier score plot.R) and [recommend treatment.R](recommend treatment.R)
 
 The original data read in R code is not provided in this repository and needs to be extracted in the [SEER](https://seer.cancer.gov/) database according to inclusion criteria.
 
